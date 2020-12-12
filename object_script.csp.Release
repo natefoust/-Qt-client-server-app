@@ -1,0 +1,10 @@
+release/admin_window.o
+release/cook_window.o
+release/employers.o
+release/main.o
+release/mainwindow.o
+release/waiter_window.o
+release/moc_admin_window.o
+release/moc_cook_window.o
+release/moc_mainwindow.o
+release/moc_waiter_window.o

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin_window</class>
+ <widget class="QDialog" name="admin_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1056</width>
+    <height>476</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="4" rowspan="2">
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="text">
+              <string>Администратор</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="adminName">
+             <property name="text">
+              <string>admin_name</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QPushButton" name="OrdersList">
+             <property name="text">
+              <string>История заказов</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="emplList">
+             <property name="text">
+              <string>Список работников</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>                            Имя</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLineEdit" name="emplName"/>
+       </item>
+       <item row="4" column="4">
+        <widget class="QLineEdit" name="empLogin"/>
+       </item>
+       <item row="6" column="4">
+        <widget class="QPushButton" name="addEmpl">
+         <property name="text">
+          <string>Добавить работника</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QPushButton" name="deleteBtn">
+         <property name="text">
+          <string>Удалить работника</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="4">
+        <widget class="QLineEdit" name="emplPos"/>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLineEdit" name="chatInput"/>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLineEdit" name="deleteEmp"/>
+       </item>
+       <item row="5" column="3">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>                      Пароль</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QPushButton" name="chatSend">
+         <property name="text">
+          <string>Отправить</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="3">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>                Должность</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>                        Логин</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="4">
+        <widget class="QLineEdit" name="emplPass"/>
+       </item>
+       <item row="1" column="2">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="0" rowspan="6" colspan="3">
+        <widget class="QTableView" name="chatTable"/>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="0">
+      <widget class="QTableView" name="tableView"/>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="text">
+      <string>Чат</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
